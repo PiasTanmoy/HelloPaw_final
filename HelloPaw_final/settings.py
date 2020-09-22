@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'User.apps.UserConfig',
+<<<<<<< HEAD
 
+=======
+    'Petservice.apps.PetserviceConfig'
+>>>>>>> b7d2f76ae01e7c3d6ea1e595afa55b4ec33e9f80
 
 
 

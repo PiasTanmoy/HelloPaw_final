@@ -17,11 +17,13 @@ from django.contrib import admin
 from django.urls import path
 from User import views as userviews
 from Home import views as home_views
+from Petservice import views as service_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('users',userviews.showCustomer),
     path('', home_views.show_home),
-    path('about/', home_views.show_about)
+    path('about/', home_views.show_about),
+    path('service/', service_views.show_service)
 
 
 ]

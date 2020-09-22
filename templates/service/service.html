@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>service</title>
+</head>
+<body>
+<p><h3>Service List</h3></p>
+{% for s in serv %}
+    <p>
+       {{ s.name }}<br>
+       {{ s.type }}<br>
+       {{ s.cost }}
+    </p>
+{% endfor %}
+</body>
+</html>

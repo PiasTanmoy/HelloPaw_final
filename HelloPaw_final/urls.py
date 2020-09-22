@@ -16,11 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from Home import views as home_views
+from PetService import views as service_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_views.show_home),
-    path('about/', home_views.show_about)
+    path('about/', home_views.show_about),
+    path('service/',service_views.show_service)
+
+
 
 
 ]

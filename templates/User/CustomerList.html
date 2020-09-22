@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>this is customer list</h2>
+<table border="1">
+  <tr>
+    <th>
+       Name
+    </th>
+    <th>
+       Address
+    </th>
+    <th>
+       Contat
+    </th>
+    <th>
+       Pet
+    </th>
+  </tr>>
+        {% for n in customer %}
+
+           <tr>
+               <td>
+                  {{ n.name }}
+               </td>
+                <td>
+                  {{ n.address }}
+                </td>
+                <td>
+                  {{ n.Phone }}
+                </td>
+                <td>
+                  {{ n.pet_type }}
+                </td>
+           </tr>
+
+    {% endfor %}
+</table>
+</body>
+</html>

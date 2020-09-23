@@ -19,6 +19,7 @@ from User import views as userviews
 from Home import views as home_views
 from PetShop import views as product_views
 from Payment import views as payment_views
+from Petservice import views as service_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('users', userviews.showCustomer),
@@ -26,4 +27,5 @@ urlpatterns = [
     path('about/', home_views.show_about),
     path('shop/',product_views.showproduct),
     path('payment/',payment_views.showPayment),
+    path('service/', service_views.show_service)
 ]

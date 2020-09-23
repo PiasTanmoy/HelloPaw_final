@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'User.apps.UserConfig',
     'PetShop.apps.PetshopConfig',
     'Payment.apps.PaymentConfig',
+    'Petservice.apps.PetServiceConfig'
 
 
 

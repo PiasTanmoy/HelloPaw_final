@@ -7,4 +7,8 @@ def showproduct(request):
     context = {
         'all_products': shop
     }
+<<<<<<< Updated upstream
     return render(request, 'PetShop/productlist.html', context)
+=======
+    return render(request, 'shop/productlist.html', context)
+>>>>>>> Stashed changes

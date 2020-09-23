@@ -1,5 +1,5 @@
 from django.db import models
-from PetService.models import Service
+from Petservice.models import Service
 from PetShop.models import Petshop
 
 

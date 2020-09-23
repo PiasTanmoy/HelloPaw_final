@@ -1,6 +1,6 @@
 from django.db import models
 from PetShop.models import Petshop
-from PetService.models import Service
+from Petservice.models import Service
 # Create your models here.
 class Customer(models.Model):
     name = models.CharField(max_length=100)

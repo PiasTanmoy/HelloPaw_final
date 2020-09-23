@@ -38,9 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'User.apps.UserConfig',
-    'Petservice.apps.PetServiceConfig',
-    'PetShop.apps.PetshopConfig'
-
+    'PetShop.apps.PetshopConfig',
+    'Payment.apps.PaymentConfig',
 
 
 

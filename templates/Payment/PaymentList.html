@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>this is customer list</h2>
+<table border="1">
+  <tr>
+    <th>
+       id
+    </th>
+    <th>
+       amount
+    </th>
+    <th>
+       type
+    </th>
+  </tr>>
+        {% for n in payment %}
+
+           <tr>
+               <td>
+                  {{ n.id }}
+               </td>
+                <td>
+                  {{ n.amount }}
+                </td>
+                <td>
+                  {{ n.type}}
+                </td>
+
+           </tr>
+
+    {% endfor %}
+</table>
+</body>
+</html>

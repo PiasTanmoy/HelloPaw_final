@@ -23,7 +23,6 @@ urlpatterns = [
     path('users', userviews.showCustomer),
     path('', home_views.show_home),
     path('about/', home_views.show_about),
-    path('service/', service_views.show_service)
-
+    path('service/', service_views.show_service),
 
 ]

@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'User.apps.UserConfig',
     'Petservice.apps.PetserviceConfig'
-
+    'PetShop.apps.PetShopConfig'
 
 
 

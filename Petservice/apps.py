@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class PetserviceConfig(AppConfig):
-    name = 'Petservice'
+class PetServiceConfig(AppConfig):
+    name = 'PetService'

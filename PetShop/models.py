@@ -7,5 +7,7 @@ class Petshop(models.Model):
     name = models.CharField(max_length=30)
     cost = models.FloatField()
 
+
+
     def __str__(self):
         return self.name
